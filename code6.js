@@ -54,7 +54,7 @@ gdjs.Percurso_32Praca_32FigueiraCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16718716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24795692);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(6));
@@ -71,7 +71,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32Praca_32FigueiraCode.userFunc0xe73d10 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32Praca_32FigueiraCode.userFunc0xf50b98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -95,7 +95,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32Praca_32FigueiraCode.userFunc0xe76130 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32Praca_32FigueiraCode.userFunc0xf50c08 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -127,7 +127,7 @@ gdjs.Percurso_32Praca_32FigueiraCode.eventsList1 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16745628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13282644);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -143,7 +143,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16747876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13285060);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -181,7 +181,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32Praca_32FigueiraC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16750740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13288092);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -235,7 +235,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16761548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13299372);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(6));
@@ -571,7 +571,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32Praca_32FigueiraC
 {
 
 
-gdjs.Percurso_32Praca_32FigueiraCode.userFunc0xe73d10(runtimeScene);
+gdjs.Percurso_32Praca_32FigueiraCode.userFunc0xf50b98(runtimeScene);
 
 }
 
@@ -579,7 +579,7 @@ gdjs.Percurso_32Praca_32FigueiraCode.userFunc0xe73d10(runtimeScene);
 {
 
 
-gdjs.Percurso_32Praca_32FigueiraCode.userFunc0xe76130(runtimeScene);
+gdjs.Percurso_32Praca_32FigueiraCode.userFunc0xf50c08(runtimeScene);
 
 }
 

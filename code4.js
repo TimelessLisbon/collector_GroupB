@@ -116,7 +116,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13304676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25594836);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(8).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(3));
@@ -178,7 +178,7 @@ gdjs.copyArray(runtimeScene.getObjects("fundo"), gdjs.D_46_32Pedro_32IV_32Enigma
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13339420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25394972);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.D_46_32Pedro_32IV_32EnigmaCode.GDanswerObjects1, gdjs.D_46_32Pedro_32IV_32EnigmaCode.GDanswerObjects2);
@@ -195,7 +195,7 @@ gdjs.copyArray(gdjs.D_46_32Pedro_32IV_32EnigmaCode.GDanswerObjects1, gdjs.D_46_3
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13340740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25396292);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -204,7 +204,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.D_46_32Pedro_32IV_32EnigmaCode.asyncCallback13347468 = function (runtimeScene, asyncObjectsList) {
+};gdjs.D_46_32Pedro_32IV_32EnigmaCode.asyncCallback25403020 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.D_46_32Pedro_32IV_32EnigmaCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("answer"), gdjs.D_46_32Pedro_32IV_32EnigmaCode.GDanswerObjects3);
 
@@ -225,14 +225,14 @@ gdjs.D_46_32Pedro_32IV_32EnigmaCode.eventsList4 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.D_46_32Pedro_32IV_32EnigmaCode.localVariables);
 for (const obj of gdjs.D_46_32Pedro_32IV_32EnigmaCode.GDanswerObjects2) asyncObjectsList.addObject("answer", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.D_46_32Pedro_32IV_32EnigmaCode.asyncCallback13347468(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.D_46_32Pedro_32IV_32EnigmaCode.asyncCallback25403020(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.D_46_32Pedro_32IV_32EnigmaCode.asyncCallback13350396 = function (runtimeScene, asyncObjectsList) {
+};gdjs.D_46_32Pedro_32IV_32EnigmaCode.asyncCallback25405948 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.D_46_32Pedro_32IV_32EnigmaCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("answer"), gdjs.D_46_32Pedro_32IV_32EnigmaCode.GDanswerObjects2);
 
@@ -253,7 +253,7 @@ gdjs.D_46_32Pedro_32IV_32EnigmaCode.eventsList5 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.D_46_32Pedro_32IV_32EnigmaCode.localVariables);
 for (const obj of gdjs.D_46_32Pedro_32IV_32EnigmaCode.GDanswerObjects1) asyncObjectsList.addObject("answer", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.D_46_32Pedro_32IV_32EnigmaCode.asyncCallback13350396(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.D_46_32Pedro_32IV_32EnigmaCode.asyncCallback25405948(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -267,7 +267,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13344596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25400148);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -443,7 +443,7 @@ gdjs.D_46_32Pedro_32IV_32EnigmaCode.eventsList7(runtimeScene);} //End of subeven
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13358132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25413684);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -496,7 +496,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13360132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25415684);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -597,7 +597,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13368092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25423644);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -661,7 +661,7 @@ gdjs.D_46_32Pedro_32IV_32EnigmaCode.eventsList11(runtimeScene);} //End of subeve
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13376164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25431716);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -677,7 +677,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13380204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25435756);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -693,7 +693,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13382772);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25422676);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -709,7 +709,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13386420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25403212);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -794,7 +794,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13392356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25405524);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -810,7 +810,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13399196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25404700);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(10);
@@ -826,7 +826,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13400836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25376684);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(7);
@@ -842,7 +842,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13402348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25409116);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(5);
@@ -858,7 +858,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13403716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25411020);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(3);
@@ -874,7 +874,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13393980);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25388268);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
@@ -1004,7 +1004,7 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.D_46_32Pedro_32IV_32E
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13458284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27932892);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(3));
@@ -1038,7 +1038,7 @@ gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.D_46_32Pedro_32IV_32EnigmaCod
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13388084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27944332);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "message-incoming-132126.mp3", false, 100, 1);
@@ -1054,7 +1054,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13347564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27947068);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(3));

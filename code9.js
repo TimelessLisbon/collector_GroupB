@@ -71,7 +71,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32Sta_32JustaCode.userFunc0x11d54b8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32Sta_32JustaCode.userFunc0x1249a18 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -95,7 +95,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32Sta_32JustaCode.userFunc0x11d5528 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32Sta_32JustaCode.userFunc0x1249a88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -274,10 +274,10 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32Sta_32Just
 }{for(var i = 0, len = gdjs.Percurso_32Sta_32JustaCode.GDURLObjects1.length ;i < len;++i) {
     gdjs.Percurso_32Sta_32JustaCode.GDURLObjects1[i].setString("https://www.google.pt/maps/place/Elevador+de+Santa+Justa/@38.7130544,-9.1416206,17z/data=!4m6!3m5!1s0xd193478b78a8d2f:0xe1147c62e070697c!8m2!3d38.7121301!4d-9.1394297!16zL20vMDYydGw1?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D");
 }
-}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(38.7126);
-}{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(38.7134);
-}{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(-(9.1412));
-}{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(-(9.1420));
+}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(38.7117);
+}{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(38.7125);
+}{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(-(9.1388));
+}{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(-(9.1396));
 }}
 
 }
@@ -571,7 +571,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32Sta_32JustaCode.G
 {
 
 
-gdjs.Percurso_32Sta_32JustaCode.userFunc0x11d54b8(runtimeScene);
+gdjs.Percurso_32Sta_32JustaCode.userFunc0x1249a18(runtimeScene);
 
 }
 
@@ -579,7 +579,7 @@ gdjs.Percurso_32Sta_32JustaCode.userFunc0x11d54b8(runtimeScene);
 {
 
 
-gdjs.Percurso_32Sta_32JustaCode.userFunc0x11d5528(runtimeScene);
+gdjs.Percurso_32Sta_32JustaCode.userFunc0x1249a88(runtimeScene);
 
 }
 

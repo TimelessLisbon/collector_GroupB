@@ -71,7 +71,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32MiradouroCode.userFunc0x124cd88 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32MiradouroCode.userFunc0x129e640 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -95,7 +95,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32MiradouroCode.userFunc0x124cde0 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32MiradouroCode.userFunc0x129e6b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -274,10 +274,10 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32MiradouroC
 }{for(var i = 0, len = gdjs.Percurso_32MiradouroCode.GDURLObjects1.length ;i < len;++i) {
     gdjs.Percurso_32MiradouroCode.GDURLObjects1[i].setString("https://www.google.pt/maps/place/Miradouro+de+S%C3%A3o+Pedro+de+Alc%C3%A2ntara/@38.7153084,-9.1467451,17z/data=!3m1!4b1!4m6!3m5!1s0xd19338037000861:0x1beb7972336de3a1!8m2!3d38.7153042!4d-9.1441702!16s%2Fg%2F1224hf85?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D");
 }
-}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(38.7149);
-}{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(38.7157);
-}{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(-(9.1463));
-}{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(-(9.1471));
+}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(38.7145);
+}{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(38.7154);
+}{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(-(9.1440));
+}{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(-(9.1448));
 }}
 
 }
@@ -571,7 +571,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32MiradouroCode.GDy
 {
 
 
-gdjs.Percurso_32MiradouroCode.userFunc0x124cd88(runtimeScene);
+gdjs.Percurso_32MiradouroCode.userFunc0x129e640(runtimeScene);
 
 }
 
@@ -579,7 +579,7 @@ gdjs.Percurso_32MiradouroCode.userFunc0x124cd88(runtimeScene);
 {
 
 
-gdjs.Percurso_32MiradouroCode.userFunc0x124cde0(runtimeScene);
+gdjs.Percurso_32MiradouroCode.userFunc0x129e6b0(runtimeScene);
 
 }
 

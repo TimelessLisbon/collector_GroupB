@@ -114,7 +114,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28599164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14426164);
 }
 if (isConditionTrue_0)
 {
@@ -192,7 +192,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29228580);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14430740);
 }
 if (isConditionTrue_0)
 {
@@ -270,7 +270,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29214708);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14435356);
 }
 if (isConditionTrue_0)
 {
@@ -348,7 +348,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28934972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14440100);
 }
 if (isConditionTrue_0)
 {
@@ -426,7 +426,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29259044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14444844);
 }
 if (isConditionTrue_0)
 {
@@ -504,7 +504,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29004668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14449588);
 }
 if (isConditionTrue_0)
 {
@@ -582,7 +582,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29056444);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14454396);
 }
 if (isConditionTrue_0)
 {
@@ -660,7 +660,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29015036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14459140);
 }
 if (isConditionTrue_0)
 {
@@ -738,7 +738,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29245188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14463884);
 }
 if (isConditionTrue_0)
 {
@@ -816,7 +816,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29369748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14468628);
 }
 if (isConditionTrue_0)
 {
@@ -894,7 +894,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29135020);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14473372);
 }
 if (isConditionTrue_0)
 {
@@ -972,7 +972,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29174620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14478116);
 }
 if (isConditionTrue_0)
 {
@@ -1050,7 +1050,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29173468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14482860);
 }
 if (isConditionTrue_0)
 {
@@ -1128,7 +1128,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29126196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14487604);
 }
 if (isConditionTrue_0)
 {
@@ -1206,7 +1206,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29458388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14492212);
 }
 if (isConditionTrue_0)
 {
@@ -1284,7 +1284,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29043004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14496956);
 }
 if (isConditionTrue_0)
 {
@@ -1362,7 +1362,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29013684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14501700);
 }
 if (isConditionTrue_0)
 {
@@ -1440,7 +1440,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29460332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14506444);
 }
 if (isConditionTrue_0)
 {
@@ -1518,7 +1518,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29361716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14511188);
 }
 if (isConditionTrue_0)
 {
@@ -1596,7 +1596,7 @@ for(
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29201220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14515932);
 }
 if (isConditionTrue_0)
 {
@@ -1617,7 +1617,7 @@ gdjs.LeaderboardCode.eventsList38(runtimeScene);} //Subevents end.
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28805868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14419524);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(36);

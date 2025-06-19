@@ -57,7 +57,7 @@ gdjs.QR_95Code_95readerCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29124364);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14042468);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(2));
@@ -81,7 +81,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29136236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14054340);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -95,7 +95,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.QR_95Code_95readerCode.asyncCallback29135364 = function (runtimeScene, asyncObjectsList) {
+};gdjs.QR_95Code_95readerCode.asyncCallback14053468 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.QR_95Code_95readerCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "BOMB DEACTIVATOR", false);
 }
@@ -112,7 +112,7 @@ gdjs.QR_95Code_95readerCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.QR_95Code_95readerCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.QR_95Code_95readerCode.asyncCallback29135364(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.QR_95Code_95readerCode.asyncCallback14053468(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -126,7 +126,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29141140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14059244);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -185,6 +185,27 @@ gdjs.QR_95Code_95readerCode.eventsList3(runtimeScene);} //End of subevents
 
 
 };gdjs.QR_95Code_95readerCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10689108);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(2));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Answer", "", runtimeScene.getScene().getVariables().getFromIndex(2));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Clues", "", runtimeScene.getScene().getVariables().getFromIndex(2));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(2));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(2));
+}}
+
+}
+
+
+};gdjs.QR_95Code_95readerCode.eventsList6 = function(runtimeScene) {
 
 {
 
@@ -295,6 +316,30 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsString() == gdjs.evtTools.firebaseTools.auth.userManagement.getUID());
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "BOMB DEACTIVATOR", false);
+}
+{ //Subevents
+gdjs.QR_95Code_95readerCode.eventsList5(runtimeScene);} //End of subevents
+}
+
+}
+
+
 };
 
 gdjs.QR_95Code_95readerCode.func = function(runtimeScene) {
@@ -349,7 +394,7 @@ gdjs.QR_95Code_95readerCode.GDgmapsObjects2.length = 0;
 gdjs.QR_95Code_95readerCode.GDgmapsObjects3.length = 0;
 gdjs.QR_95Code_95readerCode.GDgmapsObjects4.length = 0;
 
-gdjs.QR_95Code_95readerCode.eventsList5(runtimeScene);
+gdjs.QR_95Code_95readerCode.eventsList6(runtimeScene);
 gdjs.QR_95Code_95readerCode.GDfundoObjects1.length = 0;
 gdjs.QR_95Code_95readerCode.GDfundoObjects2.length = 0;
 gdjs.QR_95Code_95readerCode.GDfundoObjects3.length = 0;

@@ -54,7 +54,7 @@ gdjs.Percurso_32MonopolyCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14871924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22875772);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(6));
@@ -71,7 +71,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32MonopolyCode.userFunc0x1674628 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32MonopolyCode.userFunc0x121ede0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -95,7 +95,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32MonopolyCode.userFunc0x118fb28 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32MonopolyCode.userFunc0x16a0e98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -127,7 +127,7 @@ gdjs.Percurso_32MonopolyCode.eventsList1 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14896268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16498452);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -143,7 +143,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14898484);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16500868);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -181,7 +181,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32MonopolyCode.GDye
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14901348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16503900);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -235,7 +235,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14912156);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16515180);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(6));
@@ -571,7 +571,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32MonopolyCode.GDye
 {
 
 
-gdjs.Percurso_32MonopolyCode.userFunc0x1674628(runtimeScene);
+gdjs.Percurso_32MonopolyCode.userFunc0x121ede0(runtimeScene);
 
 }
 
@@ -579,7 +579,7 @@ gdjs.Percurso_32MonopolyCode.userFunc0x1674628(runtimeScene);
 {
 
 
-gdjs.Percurso_32MonopolyCode.userFunc0x118fb28(runtimeScene);
+gdjs.Percurso_32MonopolyCode.userFunc0x16a0e98(runtimeScene);
 
 }
 

@@ -57,7 +57,7 @@ gdjs.QR_95Code_95readerCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14042468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22594828);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(2));
@@ -81,7 +81,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14054340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22606612);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -95,7 +95,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.QR_95Code_95readerCode.asyncCallback14053468 = function (runtimeScene, asyncObjectsList) {
+};gdjs.QR_95Code_95readerCode.asyncCallback22605740 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.QR_95Code_95readerCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "BOMB DEACTIVATOR", false);
 }
@@ -112,7 +112,7 @@ gdjs.QR_95Code_95readerCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.QR_95Code_95readerCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.QR_95Code_95readerCode.asyncCallback14053468(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.QR_95Code_95readerCode.asyncCallback22605740(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -126,7 +126,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14059244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22611516);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -191,7 +191,7 @@ gdjs.QR_95Code_95readerCode.eventsList3(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10689108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22614740);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);

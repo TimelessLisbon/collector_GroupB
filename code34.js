@@ -1620,7 +1620,7 @@ isConditionTrue_2 = false;
 }
 if (isConditionTrue_2) {
 isConditionTrue_2 = false;
-{isConditionTrue_2 = (runtimeScene.getScene().getVariables().getFromIndex(9).getAsString() == "6532");
+{isConditionTrue_2 = (runtimeScene.getScene().getVariables().getFromIndex(9).getAsString() == "5436");
 }
 }
 isConditionTrue_1 = isConditionTrue_2;
@@ -1703,7 +1703,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsString() == gdjs.evtTools.firebaseTools.auth.userManagement.getUID());
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(9).setString("6532");
+{runtimeScene.getScene().getVariables().getFromIndex(9).setString("5436");
 }}
 
 }
